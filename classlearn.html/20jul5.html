@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1{
+            /* display:inline inline means display in single line */
+            /* display: inline; */
+        /* } */ 
+        .a{
+            /* inline block can change size */
+            /* display: inline-block; */
+            /* color will fix inside content if we give wrap and not overflow*/
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: aqua;
+            height: 200px;
+            width:300px;
+        }
+        .b{
+            display:inline-flex;
+            background-color: blueviolet;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+    <h1>Java</h1>
+    <h1>Java</h1>
+    <h1>Java</h1>
+</div>
+<div class="b">
+    <h1>Java</h1>
+</div>
+</body>
+</html>
